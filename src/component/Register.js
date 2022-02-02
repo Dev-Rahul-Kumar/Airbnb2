@@ -5,7 +5,7 @@ export default function Register() {
   return (
     <>
       <div className="mainpage">
-        {/* <div className="container"> */}
+        
           <div className="container container2">
             <div className="card-body p-5">
               <h2 className="text-uppercase text-center mb-5">
@@ -83,7 +83,7 @@ export default function Register() {
               </form>
             </div>
           </div>
-        {/* </div> */}
+        
       </div>
     </>
   );
