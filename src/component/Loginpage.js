@@ -23,9 +23,9 @@ export default function loginpage() {
           </div>
           <div className="form">
             <h3>Sign in with
-                <Link to="/"><i class="bi bi-facebook"></i></Link>
-                <Link to="/"><i class="bi bi-twitter"></i></Link>
-                <Link to="/"><i class="bi bi-linkedin"></i></Link>
+                <Link to="/"><i className="bi bi-facebook"></i></Link>
+                <Link to="/"><i className="bi bi-twitter"></i></Link>
+                <Link to="/"><i className="bi bi-linkedin"></i></Link>
             </h3>
             <br />
             or
