@@ -39,7 +39,7 @@ export default function loginpage() {
             <Link to="/" style={margin}>Forget password?</Link> 
             <br /> <br />
             <button className='btn btn-primary' style={btnsize}>Login</button>
-            <p className='ptag'>Don't have an account? <Link href="/Register">Register</Link></p>
+            <p className='ptag'>Don't have an account? <Link to="Register">Register</Link></p>
 
 
           </div>
