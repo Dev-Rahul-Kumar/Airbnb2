@@ -12,33 +12,33 @@ import Requirement from './component/Requirement';
 
 function App() {
   return (
-    <>
-     
-      <Router>
-        <Navbar />
-        
-        <div className="App">
-          <Switch>
-            <Route exact path="/">
-              <Homepage />
-            </Route>
-            <Route exact path="/Loginpage" >
-              <Loginpage />
-            </Route>
-            <Route exact path="/Register" >
-              < Register />
-            </Route>
-            <Route exact path="/Requirement">
-              <Requirement/>
-            </Route>
-            
 
-          </Switch>
-        </div>
 
-      </Router>
+    <Router>
+      <Navbar />
 
-    </>
+      <div className="App">
+        <Switch>
+          <Route exact path="/">
+            <Homepage />
+          </Route>
+          <Route exact path="/Loginpage" >
+            <Loginpage />
+          </Route>
+          <Route exact path="/Register" >
+            < Register />
+          </Route>
+          <Route exact path="/Requirement">
+            <Requirement />
+          </Route>
+
+
+        </Switch>
+      </div>
+
+    </Router>
+
+
   );
 }
 

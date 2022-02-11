@@ -4,7 +4,7 @@ import './Requirement.css'
 export default function Requirement() {
   return (
     <>
-      <div className="container container2">
+      <div className="container container3">
         <div className="page">
           <div className="first">
             <h3>What kind of space will guests have?</h3>

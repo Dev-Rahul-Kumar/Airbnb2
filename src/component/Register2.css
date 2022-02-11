@@ -1,9 +1,11 @@
 .mainpage{
     background-image: url(/src/component/img/nature-background-30.jpg);
+    height: 120vh;
    
     
 }
 .container2{
     background-color: rgba(167, 167, 187, 0.322);
     color: rgb(241, 241, 241);
+    height: 101vh;
 }
