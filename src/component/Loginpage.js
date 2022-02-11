@@ -1,7 +1,7 @@
 
 import { Link } from 'react-router-dom'
 import './login.css'
-import loginimage from './img/draw2.webp'
+import loginimage from './img/login.png'
 
 
 
@@ -15,11 +15,15 @@ export default function loginpage() {
     const btnsize={
         marginRight:"270px"
     }
+    const imagesize={
+        width:"660px",
+        paddingLeft:"20px"
+    }
   return (
       <>
       <div className="main" style={background}>
           <div className="image">
-            <img src={loginimage} alt="" />
+            <img style={imagesize} src={loginimage} alt="" />
           </div>
           <div className="form">
             <h3>Sign in with
